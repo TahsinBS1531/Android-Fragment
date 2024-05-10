@@ -19,13 +19,19 @@ class Color(){
     }
 }
 
-class Movies(){
-    fun showDetails(){
+
+class Movies() {
+    fun showDetails() {
         println("Showing Movie Details from main branch")
     }
 
-    fun showRuntime(){
+    fun showRuntime() {
         println("Showing the Runtime")
+    }
+}
+class WebSeries(){
+    fun showData(){
+        println("Webseries data from the login branch")
     }
 }
 
