@@ -39,6 +39,9 @@ class Movies() {
     fun showRuntime() {
         println("Showing the Runtime")
     }
+    fun newMovies(){
+        println("Showing new Movies")
+    }
 }
 class WebSeries(){
     fun showData(){
