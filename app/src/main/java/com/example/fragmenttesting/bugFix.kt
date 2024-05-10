@@ -33,5 +33,8 @@ class WebSeries(){
     fun showData(){
         println("Webseries data from the login branch")
     }
+    fun showRuntime(){
+        println("Showing run time of series from the login branch")
+    }
 }
 
