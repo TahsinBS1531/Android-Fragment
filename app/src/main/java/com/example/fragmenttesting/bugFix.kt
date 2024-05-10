@@ -20,6 +20,17 @@ class Color(){
 }
 
 
+
+class Movies(){
+    fun showDetails(){
+        println("Showing Movie Details from main branch")
+    }
+
+    fun showRuntime(){
+        println("Showing the Runtime")
+    }
+}
+
 class Movies() {
     fun showDetails() {
         println("Showing Movie Details from main branch")
@@ -27,6 +38,9 @@ class Movies() {
 
     fun showRuntime() {
         println("Showing the Runtime")
+    }
+    fun newMovies(){
+        println("Showing new Movies")
     }
 }
 class WebSeries(){
@@ -37,4 +51,5 @@ class WebSeries(){
         println("Showing run time of series from the login branch")
     }
 }
+
 
