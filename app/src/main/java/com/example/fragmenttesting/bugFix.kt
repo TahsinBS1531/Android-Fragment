@@ -5,10 +5,17 @@ fun main(){
         showData()
         println("ALso Addeded")
     }
+    println(Color.login())
 }
 
 class Color(){
     fun showData(){
         println("This is from bugfix branch")
     }
+    companion object{
+        fun login(){
+            println("Login Functionality Added Successfully")
+        }
+    }
 }
+
